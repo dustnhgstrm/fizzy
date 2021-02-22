@@ -1,18 +1,20 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
-function fizzy() {
+function fizzy(num) {
   const fizz = "Fizz"
   const buzz = "Buzz"
-  const fBuzz = "FizzBuz"
+  const fBuzz = "FizzBuzz"
   if (num % 3 !== 0 && num % 5 !== 0) {
     return num;
   } else if (num % 3 === 0 && num % 5 === 0) {
     return fBuzz;
-  } else if ( num % 3 === 0 && num % 5 !== 0) {
+  } else if ( num % 3 === 0) {
     return fizz;
   } else return buzz;  
-
+}
+ 
+  
 
 
 
